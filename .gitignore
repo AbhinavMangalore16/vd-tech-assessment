@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+env_backup/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Media files (if any)
+media/
+
+# If you're using PostgreSQL
+*.pgsql
+
+# If you're using MySQL
+*.sql
+
+# If you're using MacOS
+.DS_Store
+
+# If you're using Windows
+Thumbs.db
+desktop.ini
+
+# Environment variables
+*.env
+
+# Logs and debug output
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Unit test / coverage results
+*.cover
+*.py,cover
+*.pyc,cover
+.coverage
+.coverage.*
+
+# Static files
+staticfiles/
+node_modules/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# IDE specific
+.vscode/
+.idea/
+
+# pipenv
+Pipfile.lock
+
+# Backup files
+*.swp
+*.swo
+*.bak
+*.tmp
