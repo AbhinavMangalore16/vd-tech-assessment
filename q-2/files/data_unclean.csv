@@ -1,6 +1,7 @@
 user_id,email,first_name,last_name
 1,john.doe@example.com,John,Doe
 2,jane.smith@example.com,Jane,Smith
+3,johndoe@examgmail.com,Johnny,Bravo
 3,johndoe.com,John,Doe
 4,mary.jones@example.com,Mary,Jones
 5,jack.doe@example.com,Jack,Doe
@@ -10,3 +11,4 @@ user_id,email,first_name,last_name
 3,johndoe.com,John,Doe
 8,jane.will@example.com,Jane,Will
 9,tom.kent@example.com,Tom,Kent
+10,adityapop@.com,Aditya,Clarke
