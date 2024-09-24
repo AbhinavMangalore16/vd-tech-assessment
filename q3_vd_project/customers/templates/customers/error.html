@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Something went wrong</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 48px;
+            color: #dc3545;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #6c757d;
+        }
+        .error-code {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .error-details {
+            background-color: #f1f1f1;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+            color: #333;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Oops!</h1>
+        <p>Something went wrong. We are working on it.</p>
+        <div class="error-code">Error 500</div>
+        
+        <!-- Display error details if any (useful in debug mode) -->
+        {% if error %}
+        <div class="error-details">
+            <strong>Error Details:</strong><br>
+            {{ error }}
+        </div>
+        {% endif %}
+        
+        <a href="/">Return to Home</a>
+    </div>
+
+</body>
+</html>
