@@ -1,5 +1,5 @@
 ## Overview
-This repository contains the solutions for the Python and Django technical assessment test. It demonstrates proficiency in Python web scraping, CSV processing, Django ORM queries, rate-limiting, and efficient algorithms.
+This repository contains the solutions for the Python and Django VD technical assessment test. It demonstrates proficiency in Python web scraping, CSV processing, Django ORM queries, rate-limiting, and efficient algorithms.
 
 ## Setup
 
