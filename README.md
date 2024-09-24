@@ -1,5 +1,3 @@
-# Technical Assessment Test: Python and Django
-
 ## Overview
 This repository contains the solutions for the Python and Django technical assessment test. It demonstrates proficiency in Python web scraping, CSV processing, Django ORM queries, rate-limiting, and efficient algorithms.
 
