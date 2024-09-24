@@ -1,0 +1,113 @@
+[
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "username": "john_doe",
+        "email": "john@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password", 
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 2,
+      "fields": {
+        "username": "jane_doe",
+        "email": "jane@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 3,
+      "fields": {
+        "username": "michael_smith",
+        "email": "michael@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 4,
+      "fields": {
+        "username": "sarah_connor",
+        "email": "sarah@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 5,
+      "fields": {
+        "username": "tony_stark",
+        "email": "tony@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 6,
+      "fields": {
+        "username": "bruce_wayne",
+        "email": "bruce@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": true,
+        "is_staff": true
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 7,
+      "fields": {
+        "username": "peter_parker",
+        "email": "peter@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 8,
+      "fields": {
+        "username": "clark_kent",
+        "email": "clark@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 9,
+      "fields": {
+        "username": "diana_prince",
+        "email": "diana@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    },
+    {
+      "model": "auth.user",
+      "pk": 10,
+      "fields": {
+        "username": "natasha_romanoff",
+        "email": "natasha@example.com",
+        "password": "pbkdf2_sha256$260000$hashed_password",
+        "is_superuser": false,
+        "is_staff": false
+      }
+    }
+  ]
+  
